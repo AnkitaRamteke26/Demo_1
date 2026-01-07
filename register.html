@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register,H3</title>
+</head>
+    <body>
+        <form action="/Server">
+        <h3> Event Registration Form
+        </h3>
+        <p> Fill in the details below to register for the Web Development Bootcamp 2026.
+        </p>
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" placeholder="Full Name" id="Name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email">
+        </div>
+        <br>
+        <div>
+            <label for="ph">Contact:</label>
+            <input type="tel" id="ph" name="Phone_No" placeholder="mobile No.">
+        </div>
+        <br>
+        <div>
+            <label for="G">Gender:</label>
+            <select name="Gender" id="G">
+                <option> Select Gender </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Current Qualification : <br>
+
+            <input type="Radio" id="dip" name="Cur_Qua">
+            <label for="dip">Diploma</label>
+            <br>
+
+            <input type="Radio" id="ug" name="Cur_Qua">
+            <label for="ug">Undergraduate</label><br>
+
+            <input type="Radio" id="pg" name="Cur_Qua">
+
+            <label for="pg">Postgraduate</label>
+
+        </div>
+        <br>
+        <div>
+            Skill You Know : <br>
+
+            <input type="checkbox" name="Skill" id="html">
+            <label for="html"> HTML </label> <br>
+            <input type="checkbox" name="Skill" id="css">
+            <label for="css"> CSS </label> <br>
+            <input type="checkbox" name="Skill" id="javaScript">
+            <label for="javaScript"> JavaScript </label> <br>
+            <input type="checkbox" name="Skill" id="python">
+            <label for="python"> Python </label> <br>
+        </div>
+        <br>
+        <div>
+            Why do you want to attend this bootcamp? <br>
+            <textarea placeholder="Type here" rows="5" cols="25"></textarea>
+
+        </div>
+        <br>
+        <button>Register</button>
+</form>
+</body>
+
+</html>
